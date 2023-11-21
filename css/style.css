@@ -212,10 +212,11 @@ h4{
     overflow-y: auto;
     padding-top: 20%;
     padding-bottom: 10%;
+    
 }
 
 .formindex{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -233,7 +234,7 @@ h4{
     display: none;
 }
 .form-control{
-    width: 100%;
+    /* width: 100%; */
     border: 3px solid;
     border-color:#0d1119;
     background-color: #ebe1dc;
