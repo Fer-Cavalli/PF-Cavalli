@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 body::-webkit-scrollbar{
@@ -24,6 +24,8 @@ body{
     flex-direction: column;
     min-height: 100%;
 }
+
+
 
 /*ACOMODO BOOTSTRAP ul*/
 ul{
@@ -60,11 +62,14 @@ h4{
     max-width: 630px;
 }
 
+
 /*BACKGROUND COLOR BODY*/
 .colorindex{
+    display: flex;
     background-color: #0d1119;
 }
 .colorcontact{
+    display: flex;
     background-color:#0d1119;
 }
 .colorserv{
@@ -81,6 +86,7 @@ h4{
     align-items: center;
     position: fixed;
     top: 0%;
+    z-index: 2;
 }
 
 .nav-bar a img{
@@ -162,16 +168,34 @@ h4{
     margin-bottom: 100px;
 }
 
+.heroindex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
 .textindex{
     margin-right: 20px;
+}
+.textindex2{
+    margin-left: 20px;
 }
 
 .heroindex h3{
     font-size: 80px;
     color: #ff7dc8;
 }
+.heroindex2 h3{
+    font-size: 80px;
+    color: #ff7dc8;
+}
 
 .imgindex img{
+    height: 600px;
+    width: 600px;
+}
+.imgindex2 img{
     height: 600px;
     width: 600px;
 }
@@ -186,15 +210,30 @@ h4{
     height: 100%;
     align-items: center;
     overflow-y: auto;
-    padding-top: 10%;
-    padding-right: 15%;
+    padding-top: 20%;
     padding-bottom: 10%;
+}
+
+.formindex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.divform{
+    width: 40%;
 }
 .form label{
     display: none;
 }
 .form-control{
-    width: 150%;
+    width: 100%;
     border: 3px solid;
     border-color:#0d1119;
     background-color: #ebe1dc;
@@ -235,3 +274,192 @@ h4{
     border: 3px solid;
     border-color:#ff7dc8;
 }
+
+
+@media (max-width: 1280px){
+    .heroindex{
+        display: flex;
+        flex-direction: column;
+    }
+    .heroindex2{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .textindex{
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+    .textindex2{
+        padding-bottom: 20px;
+        /* margin-right: 0; */
+        margin-left: 0;
+        padding-right: 170px;
+
+    }
+
+    h3, h4{
+        max-width: 700px;
+    }
+
+    .imgindex img{
+        width: 700px;
+        height: 600px;
+    }
+    .imgindex2 img{
+        width: 700px;
+        height: 600px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 10vh;
+    }
+    .textcontact{
+        margin-top: 20vh;
+    }
+}
+
+@media (max-width: 800px){
+    .heroindex{
+        display: flex;
+        flex-direction: column;
+    }
+    .heroindex2{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .textindex{
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+    .textindex2{
+        padding-bottom: 20px;
+        /* margin-right: 0; */
+        margin-left: 0;
+        padding-right: 250px;
+
+    }
+
+    .heroindex h3{
+        font-size: 50px;
+    }
+    .heroindex2 h3{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 30px;
+    }
+
+    h3, h4{
+        max-width: 600px;
+    }
+
+    .imgindex img{
+        width: 600px;
+        height: 500px;
+    }
+    .imgindex2 img{
+        width: 600px;
+        height: 500px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 10vh;
+    }
+    .textcontact{
+        margin-top: 20vh;
+    }
+    .textcontact h3{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 600px){
+
+
+
+    .heroindex{
+        display: flex;
+        flex-direction: column;
+    }
+    .heroindex2{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .textindex{
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+    .textindex2{
+        padding-bottom: 20px;
+        /* margin-right: 0; */
+        margin-left: 0;
+        padding-right: 80px;
+
+    }
+
+    .heroindex h3{
+        font-size: 50px;
+    }
+    .heroindex2 h3{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 30px;
+    }
+
+    h3, h4{
+        max-width: 400px;
+    }
+
+    .imgindex img{
+        width: 600px;
+        height: 500px;
+    }
+    .imgindex2 img{
+        width: 600px;
+        height: 500px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 10vh;
+        width: 100%;
+    }
+    .textcontact{
+        margin-top: 20vh;
+        align-items: center;
+    }
+    .textcontact h3{
+        font-size: 50px;
+    }
+    .divform{
+        width: auto;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .redes-container{
+        padding-top: 0px;
+    }
+    .footer-contact p{
+        margin-bottom: 0px;
+    }
+
+}
+
