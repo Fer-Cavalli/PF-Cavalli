@@ -27,7 +27,6 @@ html, body{
     min-height: 100%;
     width: 100% !important;
     overflow-x: hidden !important;
-
 }
 
 
@@ -70,6 +69,7 @@ h4{
 }
 
 
+
 /*BACKGROUND COLOR BODY*/
 .colorindex{
     display: flex;
@@ -81,6 +81,9 @@ h4{
 }
 .colorserv{
     background-color: greenyellow;
+}
+.colorabout{
+    background-color: #ff7dc8;
 }
 
 
@@ -210,7 +213,7 @@ h4{
 }
 
 
-/*FORMULARIO CONTACT*/
+/*FORM CONTACT*/
 .form{
     width: 100%;
     display: flex;
@@ -284,6 +287,37 @@ h4{
     border: 3px solid;
     border-color:#ff7dc8;
 }
+
+
+/*ABOUT US*/
+.textabout{
+    padding-left: 20px;
+}
+.textabout h3{
+    color: #0d1119;
+}
+.textabout h4{
+    color: #ebe1dc;
+}
+.imgabhori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.imgabhori img{
+    width: 1300px;
+    height: 520px;
+}
+.h5about {
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 
 
 
@@ -429,6 +463,22 @@ h4{
         color: #ecececec;
     } */
 
+    /*    ABOUT    */
+    .textabout{
+        margin-top: 40px;
+    }
+    .imgabhori{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    .imgabhori img{
+        width: 1100px;
+        height: 520px;
+    }
+
 }
 
 @media (max-width: 800px){
@@ -561,6 +611,19 @@ h4{
     /* .nav-list li a {
         color: #ecececec;
     } */
+
+    /*   About   */
+    .imgabhori{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    .imgabhori img{
+        width: 700px;
+        height: 520px;
+    }
 
 }
 
@@ -712,6 +775,27 @@ h4{
         color: #ecececec;
     } */
 
+    /*   About   */
+    .imgabhori{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    .imgabhori img{
+        width: 500px;
+        height: 520px;
+    }
+    .h5about {
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+
 }
 
 @media screen and (max-width: 400px) {
@@ -786,6 +870,27 @@ h4{
     /* .nav-list li a {
         color: #ecececec;
     } */
+
+        /*   About   */
+    .imgabhori{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    .imgabhori img{
+        width: 400px;
+        height: 520px;
+    }
+
+    .h5about {
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
 }
 
