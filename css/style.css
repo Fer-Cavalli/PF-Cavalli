@@ -971,6 +971,12 @@ h4{
         margin-left: 3rem;
         margin-right: 3rem;
         margin-bottom: 5rem;
+        height: 100%;
+        width: auto;
+    }
+    .itemserv{
+        padding-left: 2px;
+        padding: 2px;
     }
     .blockwho{
         display: grid;
@@ -1090,15 +1096,17 @@ h4{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 2rem;
-        /* margin-left: 2rem;
-        margin-right: 2rem; */
+        margin-left: 3rem;
+        margin-right: 3rem;
         margin-bottom: 5rem;
-        align-items: center;
-
+        height: 100%;
+        width: auto;
     }
     .itemserv{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-left: 1px;
+        padding: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
     .blockwho{
         display: grid;
