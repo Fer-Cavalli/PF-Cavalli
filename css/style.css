@@ -305,6 +305,8 @@ h4{
     align-items: center;
     margin-bottom: 80px;
     margin-top: 50px;
+    margin-top: 20vh;
+
 }
 .imgabhori img{
     width: 1300px;
@@ -319,6 +321,66 @@ h4{
 }
 
 
+/*------------Services--------*/
+.imgserv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 20vh;
+}
+.imgserv img{
+    width: 1300px;
+    height: 520px;
+}
+
+.textserv{
+    padding-left: 20px;
+}
+.textserv h3{
+    color: #0d1119;
+    font-size: 150px;
+}
+.textserv h4{
+    color: #ffffff;
+    font-size: 160px;
+}
+.heroserv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 100px;
+}
+.servblock{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+}
+.servcuad{
+    background-color: #0d1119;
+    padding: 1rem;
+}
+
+.itemserv{
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.2;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    color: #ffd200;
+    transition: all 0.5s ease;
+    border: 5px solid transparent;
+}
+.itemserv:hover{
+    color: #ff7dc8 !important;
+    border: 5px solid;
+    border-color:#ff7dc8;
+    transition: all 0.5s ease;
+}
 
 
 /* -----------------MENU RESPONSIVE----------------------- */
@@ -481,6 +543,17 @@ h4{
 
 }
 
+@media (max-width: 1024px) {
+    .servblock{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 5rem;
+    }
+}
+
 @media (max-width: 800px){
     .heroindex{
         display: flex;
@@ -623,6 +696,14 @@ h4{
     .imgabhori img{
         width: 700px;
         height: 520px;
+    }
+    .servblock{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 5rem;
     }
 
 }
@@ -794,6 +875,14 @@ h4{
         padding-left: 40px;
         padding-right: 40px;
     }
+    .servblock{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 5rem;
+    }
     
 
 }
@@ -890,6 +979,20 @@ h4{
         text-align:start;
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .servblock{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        /* margin-left: 2rem;
+        margin-right: 2rem; */
+        margin-bottom: 5rem;
+        align-items: center;
+
+    }
+    .itemserv{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
 }
