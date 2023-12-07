@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="../img/fav.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Contact</title>
 </head>
@@ -20,11 +21,11 @@
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
 
         <nav class="nav-bar nav" id="nav">
-            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo"></a>
+            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo" data-aos="zoom-in"></a>
             <div>
                 <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
 
-                <ul class="menu nav-list">  
+                <ul class="menu nav-list" data-aos="zoom-in">  
                     <li><a href="./about_us.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./who_we_are.html">Who We Are</a></li>
@@ -36,12 +37,12 @@
 
     <main class="main">
         <div class="form">
-            <div class="textcontact">
+            <div class="textcontact" data-aos="fade-right">
                 <h3>Ready For Coffee?</h3>
                 <h4>Get In Touch With Our Team</h4>
             </div>
 
-            <div class="divform">
+            <div class="divform" data-aos="zoom-in">
                 <form>
                     <div class="form-group form1">
                         <label for="exampleInputPassword1">Name</label>
@@ -91,6 +92,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+      </script>
     
 </body>
 </html>

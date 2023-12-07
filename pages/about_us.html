@@ -12,6 +12,8 @@
     <link rel="icon" type="image/png" href="../img/fav.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>About Us</title>
 </head>
@@ -20,11 +22,11 @@
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
 
         <nav class="nav-bar nav" id="nav">
-            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo"></a>
+            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo" data-aos="zoom-in"></a>
             <div>
                 <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
 
-                <ul class="menu nav-list">  
+                <ul class="menu nav-list" data-aos="zoom-in">  
                     <li><a href="./about_us.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./who_we_are.html">Who We Are</a></li>
@@ -36,22 +38,22 @@
     <main>
        
         <div class="heroindex hbout">
-            <div class="imgindex">
+            <div class="imgindex" data-aos="zoom-in"> 
                 <img src="../img/heroind.jpeg" alt="imagen hero">
             </div>
-            <div class="textindex textabout">
+            <div class="textindex textabout" data-aos="fade-left">
                 <h3>Showcase your thought provoking topics and ideas</h3>
                 <h4>Big company announcement or simple sub-header taking two or more lines.</h4>
             </div>
         </div>
 
-        <h5 class="h5about">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam at quisquam aliquam, incidunt magni porro quibusdam corrupti beatae. Asperiores, quam ut cum ab maxime perspiciatis ex ipsam illo blanditiis est enim, ratione maiores! Aspernatur accusamus laboriosam placeat quasi debitis, ad cumque ab? Possimus laboriosam eligendi enim quo consequuntur labore consectetur ullam amet atque et, ut neque doloribus placeat quia laborum. Omnis eius laboriosam alias harum magnam nihil dolore animi odio doloribus enim sunt reprehenderit consequatur laborum culpa quisquam similique molestias fugit, quod distinctio, quidem assumenda expedita nemo nam. Debitis, non. Maiores maxime veniam iste ratione quibusdam consequuntur facilis nam harum a vitae pariatur sed consequatur quo quod tempore repellat id delectus quia, beatae facere vero quas optio dolor eos! Totam, unde mollitia dolore commodi atque corporis nihil laborum ducimus fuga, cupiditate esse, aliquid excepturi! Ab fugit similique sint officia non!</p>
+        <h5 class="h5about" data-aos="zoom-in">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam at quisquam aliquam, incidunt magni porro quibusdam corrupti beatae. Asperiores, quam ut cum ab maxime perspiciatis ex ipsam illo blanditiis est enim, ratione maiores! Aspernatur accusamus laboriosam placeat quasi debitis, ad cumque ab? m a vitae pariatur sed consequatur quo quod tempore repellat id delectus quia, beatae facere vero quas optio dolor eos! Totam, unde mollitia dolore commodi atque corporis nihil laborum ducimus fuga, cupiditate esse, aliquid excepturi! Ab fugit similique sint officia non!</p>
             
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illum sit consequatur porro ipsum, doloremque asperiores libero voluptas dolore magni obcaecati quo labore incidunt dicta quas rem nesciunt facilis quibusdam quae fuga fugiat? Natus, nostrum nulla maxime doloremque nisi perferendis. Consequuntur cupiditate sapiente repudiandae quasi alias repellat facere laboriosam. Autem minima fuga quo hic molestias neque aperiam ipsa aut maxime qui odit corporis facere, libero atque rem beatae quia veniam facilis perferendis quaerat itaque. Laudantium impedit dicta cumque omnis voluptatibus aspernatur dolorum a unde corrupti, illo magnam maiores, dolorem eveniet nisi numquam repudiandae, eius tempore accusantium. Quis reiciendis corrupti aperiam!</p>
         </h5>
 
-        <div class="imgabhori">
+        <div class="imgabhori" data-aos="zoom-in">
             <img src="../img/backgaub.jpeg" alt="imagen hero">
         </div>
     
@@ -83,6 +85,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+      </script>
 
 </body>
 </html>

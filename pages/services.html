@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="../img/fav.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Services</title>
 </head>
@@ -20,11 +21,11 @@
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
 
         <nav class="nav-bar nav" id="nav">
-            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo"></a>
+            <a href="../index.html" class="logo"><img src="../img/logofinal.png" alt="logo" data-aos="zoom-in"></a>
             <div>
                 <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
 
-                <ul class="menu nav-list">  
+                <ul class="menu nav-list" data-aos="zoom-in">  
                     <li><a href="./about_us.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./who_we_are.html">Who We Are</a></li>
@@ -35,34 +36,34 @@
     </header>
     <main>
         <div class="imgserv">
-            <img src="../img/backgaub.jpeg" alt="imagen hero">
+            <img src="../img/backgaub.jpeg" alt="imagen hero" data-aos="zoom-in">
         </div>
         <div class="heroserv hbout">
             <!-- <div class="imgindex">
                 <img src="../img/heroind.jpeg" alt="imagen hero">
             </div> -->
             <div class="textserv">
-                <h3>We Bring Ideas To</h3>
-                <h4>Life</h4>
+                <h3 data-aos="fade-right">We Bring Ideas To</h3>
+                <h4 data-aos="fade-left">Life</h4>
             </div>
         </div>
             <div class="servblock">
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-left">
                     <div class="itemserv">Research</div>
                 </div>
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-down">
                     <div class="itemserv">Strategy</div>
                 </div>
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-left">
                     <div class="itemserv">Marketing</div>
                 </div>
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-down">
                     <div class="itemserv">Design</div>
                 </div>
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-left">
                     <div class="itemserv">Development</div>
                 </div>
-                <div class="servcuad">
+                <div class="servcuad" data-aos="flip-down">
                     <div class="itemserv">Support</div>
                 </div>
             </div>
@@ -94,6 +95,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+      </script>
 
 </body>
 </html>
