@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1px;
+}
+.header{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    padding: 1rem;
+    border-bottom: 1px solid #ebe1dc;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #0d1119;
+    a{
+        img{
+            height: 90px;
+            width: auto;
+        }
+    }
+
+}

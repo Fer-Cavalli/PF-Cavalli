@@ -1,0 +1,34 @@
+
+/*ABOUT US*/
+
+.textabout{
+    padding-left: 20px;
+    h3{
+        color: #0d1119;
+
+    }
+    h4{
+        color: #ebe1dc;
+
+    }
+}
+.imgabhori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-top: 20vh;
+    img{
+        width: 1300px;
+        height: 520px;
+    }
+
+}
+.h5about {
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    padding-left: 70px;
+    padding-right: 70px;
+}

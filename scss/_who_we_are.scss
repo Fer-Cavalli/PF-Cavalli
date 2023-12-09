@@ -1,0 +1,52 @@
+/*-----------------WHO WE ARE---------------------*/
+.textwho{
+    padding-top: 6rem;
+    h3{
+        color: #0d1119;
+        font-size: 114px;
+    }
+    h4{
+        color: #ffffff;
+        font-size: 160px;
+        border: 5px solid;
+        border-color: #0d1119;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #0d1119;
+    }
+}
+.blockwho{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+}
+.userwho{
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 5px solid;
+    border-color: #0d1119;
+    &:hover{
+        background: linear-gradient(#ff7dc8, 60%, #b464ff);
+        transition: cubic-bezier(0.18, 0.89, 0.32, 1.28) 1s;
+        transition-delay: 0s;
+    }
+    &:hover .userdescrip{
+        color: #0d1119;
+    }
+}
+.userdescrip{
+    font-size: 30px;
+    padding: 20px 0 5px;
+    color: #b464ff;
+    text-align: center;
+    font-weight: 700;
+
+}
+.imguser{
+    width: 100%;
+    height: auto;
+    border: 5px solid;
+    border-color: #0d1119;
+}

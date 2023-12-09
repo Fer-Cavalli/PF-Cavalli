@@ -1,0 +1,74 @@
+
+/*FORM CONTACT y form home*/
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    label{
+        display: none;
+    }
+    
+}
+.formindex{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.divform{
+    width: 40%;
+}
+.form-control{
+    /* width: 100%; */
+    border: 3px solid;
+    border-color:#0d1119;
+    background-color: #ebe1dc;
+    &:focus{
+        border: 3px solid;
+        border-color:#ff7dc8;
+        outline: none;
+        box-shadow: none;
+        background-color: #ebe1dc;
+    }
+}
+.formtextarea{
+    height: 280px;
+    padding: 10px;
+    resize: none;
+    border: 3px solid;
+    border-color:#0d1119;
+    background-color: #ebe1dc;
+    margin-bottom: 1px;
+}
+
+/*BOTON FORMULARIO CONTACT*/
+.btn3 {
+    color:#0d1119 !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5em 3.2em;
+    background-color: #ff7dc8;
+    border: 3px solid;
+    border-color:#0d1119;
+    transition: all 0.5s ease;
+    position: relative;
+    border-radius: 6px;
+    &:hover{
+        background-color: #0d1119;
+        color: #ff7dc8 !important;
+        border: 3px solid;
+        border-color:#ff7dc8;
+    }
+}

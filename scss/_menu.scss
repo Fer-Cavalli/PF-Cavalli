@@ -1,0 +1,20 @@
+
+/*MENU*/
+
+.menu{
+    li{
+        display: inline-block;
+        a{
+            margin: 28px;
+            color: #ffffff;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 300ms;
+            &:hover{
+                color:#ff7dc8;
+                /* text-shadow: rgb(6, 230, 242) 1px 1px 5px; */
+                transform: scale(1.4, 1.4);
+            }
+        }
+    }
+}

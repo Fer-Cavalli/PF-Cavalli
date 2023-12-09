@@ -1,0 +1,68 @@
+
+//VARIABLES
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/*ACOMODO BOOTSTRAP ul*/
+ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10%;
+    margin-top: 15px;
+}
+
+h3{
+    /* text-align: center; */
+    font-family: 'gt walsheim pro', sans-serif;
+    /* padding-right: 10px;
+    margin-top: 15px; */
+    font-size: 115px;
+    font-weight: 900;
+    color: #ebe1dc;
+    max-width: 630px;
+}
+
+h4{
+    /* text-align: center; */
+    font-family: 'gt walsheim pro', sans-serif;
+    /* padding-right: 10px;
+    margin-top: 15px; */
+    font-size: 50px;
+    font-weight: 900;
+    color: #ebe1dc;
+    max-width: 630px;
+}
+
+/*BACKGROUND COLOR BODY*/
+.colorindex{
+    display: flex;
+    background-color: #0d1119;
+}
+.colorcontact{
+    display: flex;
+    background-color:#0d1119;
+}
+.colorserv{
+    background-color: #ffd200;
+}
+.colorabout{
+    background-color: #ff7dc8;
+}
+.colorwho{
+    background-color: #b464ff;
+}
