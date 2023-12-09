@@ -175,6 +175,8 @@ body::-webkit-scrollbar-track {
   color: #ff7dc8;
 }
 .heroindex img {
+  border: 5px solid;
+  border-color: #ff7dc8;
   height: 600px;
   width: 600px;
 }
@@ -193,6 +195,8 @@ body::-webkit-scrollbar-track {
   color: #ff7dc8;
 }
 .heroindex2 img {
+  border: 5px solid;
+  border-color: #ff7dc8;
   height: 600px;
   width: 600px;
 }
@@ -312,6 +316,15 @@ body::-webkit-scrollbar-track {
 .imgabhori img {
   width: 1300px;
   height: 520px;
+  border: 5px solid;
+  border-color: #0d1119;
+}
+
+.imgiabout img {
+  border: 5px solid;
+  border-color: #0d1119;
+  height: 600px;
+  width: 600px;
 }
 
 .h5about {
@@ -331,6 +344,8 @@ body::-webkit-scrollbar-track {
   margin-top: 20vh;
 }
 .imgserv img {
+  border: 5px solid;
+  border-color: #0d1119;
   width: 1300px;
   height: 520px;
 }
@@ -369,6 +384,8 @@ body::-webkit-scrollbar-track {
 .servcuad {
   background-color: #0d1119;
   padding: 1rem;
+  border: 5px solid;
+  border-color: #ff7dc8;
 }
 
 .itemserv {
@@ -421,7 +438,7 @@ body::-webkit-scrollbar-track {
   border-color: #0d1119;
 }
 .userwho:hover {
-  background: linear-gradient(#ff7dc8, 60%, #b464ff);
+  background: linear-gradient(#b464ff, 60%, #ff7dc8);
   transition: cubic-bezier(0.18, 0.89, 0.32, 1.28) 1s;
   transition-delay: 0s;
 }
@@ -439,7 +456,7 @@ body::-webkit-scrollbar-track {
 
 .imguser {
   width: 100%;
-  height: auto;
+  height: 381px;
   border: 5px solid;
   border-color: #0d1119;
 }
@@ -572,6 +589,11 @@ body::-webkit-scrollbar-track {
   .imgabhori img {
     width: 1100px;
     height: 520px;
+  }
+}
+@media (max-width: 1366px) {
+  .heroindex {
+    margin-top: 200px;
   }
 }
 @media (max-width: 1024px) {
