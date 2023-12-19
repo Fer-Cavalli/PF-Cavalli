@@ -162,7 +162,6 @@
 }
 }
 
-
 @media (max-width: 1024px){
     .servblock{
         display: grid;
@@ -503,9 +502,6 @@
         margin-top: 50px;
     }
 
-    /* .nav-list li a {
-        color: #ecececec;
-    } */
 
     /*   About   */
     .imgabhori{
@@ -525,6 +521,9 @@
         text-align:start;
         padding-left: 40px;
         padding-right: 40px;
+        .p1{
+            margin-right: 0px;
+        }
     }
     .servblock{
         display: grid;
@@ -663,6 +662,9 @@
         text-align:start;
         padding-left: 40px;
         padding-right: 40px;
+        .p1{
+            margin-right: 0px;
+        }
     }
     .servblock{
         display: grid;
