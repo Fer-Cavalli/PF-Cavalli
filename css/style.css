@@ -24,10 +24,7 @@ h1, h2 {
 }
 
 h3 {
-  /* text-align: center; */
   font-family: "gt walsheim pro", sans-serif;
-  /* padding-right: 10px;
-  margin-top: 15px; */
   font-size: 115px;
   font-weight: 900;
   color: #ebe1dc;
@@ -35,10 +32,7 @@ h3 {
 }
 
 h4 {
-  /* text-align: center; */
   font-family: "gt walsheim pro", sans-serif;
-  /* padding-right: 10px;
-  margin-top: 15px; */
   font-size: 50px;
   font-weight: 900;
   color: #ebe1dc;
@@ -219,7 +213,6 @@ body::-webkit-scrollbar-track {
 }
 .menu li a:hover {
   color: #ff7dc8;
-  /* text-shadow: rgb(6, 230, 242) 1px 1px 5px; */
   transform: scale(1.4, 1.4);
 }
 
@@ -335,6 +328,7 @@ body::-webkit-scrollbar-track {
 .h5about {
   display: flex;
   flex-direction: column;
+  font-size: 20px;
   text-align: start;
   padding-left: 70px;
   padding-right: 70px;
